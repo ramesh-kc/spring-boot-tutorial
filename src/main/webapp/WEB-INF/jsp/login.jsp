@@ -3,7 +3,10 @@
     <title>Web Application </title>
 </head>
 <body>
-    <h1>Hello: ${name}</h1>
-    <p>My first Application</p>
+    <form method="post">
+        Name: <input type="text" name="name"/>
+        Password: <input type="password" name="password"/>
+        <input type="submit" value="Submit" />
+    </form>
 </body>
 </html>
