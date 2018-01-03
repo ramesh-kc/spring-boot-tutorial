@@ -1,0 +1,11 @@
+package com.tutorial.springboot.service;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class LoginService {
+
+	public boolean validateUser(String username, String password) {
+		return "Ramesh".equalsIgnoreCase(username) && "dummy".equalsIgnoreCase(password);
+	}
+}
