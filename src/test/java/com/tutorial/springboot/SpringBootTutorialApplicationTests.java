@@ -1,4 +1,4 @@
-package com.tutorial.springboot.springboottutorial;
+package com.tutorial.springboot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
