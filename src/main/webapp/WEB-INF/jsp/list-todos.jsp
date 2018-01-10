@@ -3,7 +3,9 @@
     <title>Todo List</title>
 </head>
 <body>
-    <h1>Here are the list of your todos: ${todos}</h1>
-    <h3>Your Name is: ${name}</h3>
+    <p>Here are the list of  ${name}'s todos:
+        ${todos}</p>
+
+    <p><a href="/add-todo">Add Todo</a></p>
 </body>
 </html>
