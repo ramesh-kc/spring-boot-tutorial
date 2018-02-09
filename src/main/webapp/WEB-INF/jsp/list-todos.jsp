@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Todo's for ${name}</title>
+    <link href="webjars/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
 <h1>Your Todos</h1>
@@ -25,5 +26,7 @@
     </tbody>
 </table>
 <p><a href="/add-todo">Add Todo</a></p>
+<script src="webjars/jquery/1.11.1/jquery.js"></script>
+<script src="webjars/bootstrap/3.3.6/js/bootstrap.js"></script>
 </body>
 </html>
